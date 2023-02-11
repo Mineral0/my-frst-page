@@ -1,0 +1,112 @@
+body {
+    background-color: #140f16;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 5px;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: blueviolet;
+    transition: 0.3s all;
+
+}
+
+#inc-bttn {
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#inc-bttn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+img {
+    width: 800px;
+    height: 500px;
+}
+
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Secular One', sans-serif, bold;
+}
+
+span {
+    color: blueviolet;
+}
+
+p {
+    max-width: 500px;
+    line-height: 30px;
+}
+
+img {
+    width: 500px;
+    margin-left: 25%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    background-color: rgb(106, 35, 172);
+    transition: 0.3s all;
+}
